@@ -50,11 +50,8 @@ The `Phone` class contains the following attributes:
 Adds a phone object to the LinkedList.
 
 ## ✅ Remove Phone by ID
-
 Removes a phone safely using `Iterator`.
 
-```java
-removeById(int id)
 
 ---
 
