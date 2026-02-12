@@ -56,44 +56,7 @@ Removes a phone safely using `Iterator`.
 ```java
 removeById(int id)
 
-✅ Filter by Brand
-
-Displays phones of a specific brand (case-insensitive).
-
-filterByBrand(String brand)
-
-🔤 Sorting Features
-➤ Sort by Name (Ascending)
-sortByName()
-
-➤ Sort by Name (Descending)
-sortByNameDescending()
-
-➤ Sort by Cost (Ascending)
-sortByCost()
-
-➤ Sort by Cost (Descending)
-sortByCostDescending()
-
-➤ Sort by Date (Ascending)
-
-Date format used: DD-MM-YYYY
-
-Sorting logic:
-
-Compare Year
-
-If same → Compare Month
-
-If same → Compare Day
-
-sortByDate()
-
-➤ Sort by Date (Descending)
-
-Newest dates first.
-
-sortByDateDescending()
+---
 
 <img width="1246" height="542" alt="image" src="https://github.com/user-attachments/assets/e9aac5dc-94a3-405f-b8a3-972624b2f07e" />
 <img width="1222" height="616" alt="image" src="https://github.com/user-attachments/assets/474375b2-8466-47cf-8bac-9088aa3c75c7" />
