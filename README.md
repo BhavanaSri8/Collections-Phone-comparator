@@ -1,63 +1,59 @@
 # 📱 Phone Management System (Java Collections Project)
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project is a simple **Phone Management System** built using Java.  
-It demonstrates the use of:
+This project is a Java-based Phone Management System that demonstrates:
 
 - Object-Oriented Programming (OOP)
 - Java Collections Framework
-- LinkedList
-- Iterator
-- Comparator
-- Sorting (Ascending & Descending)
-- Filtering
-- Custom Date Sorting (DD-MM-YYYY format)
+- List (LinkedList)
+- Map (HashMap)
+- Comparator Interface
+- Custom Sorting Logic
+- Date Sorting (DD-MM-YYYY)
+- Separation of Logic and Presentation
 
-The system manages a list of `Phone` objects and performs multiple operations like adding, removing, filtering, and sorting.
+The application manages phone records and performs operations like adding, removing, filtering, and sorting.
 
 ---
 
 ## 🏗 Project Structure
 
-<img width="259" height="135" alt="image" src="https://github.com/user-attachments/assets/a0b9128d-351d-4c68-85c7-a68a660ae8ea" />
+<img width="445" height="264" alt="image" src="https://github.com/user-attachments/assets/ac9a8835-7e9e-4046-893d-d98fc3015e82" />
 
 ---
 
 ## 📦 Phone Class
 
-The `Phone` class contains the following attributes:
+The `Phone` class represents a phone entity with the following attributes:
 
-| Field               | Type    | Description                  |
-|---------------------|---------|------------------------------|
-| id                  | int     | Unique phone ID              |
-| name                | String  | Phone model name             |
-| brand               | String  | Brand of the phone           |
-| cost                | double  | Price of the phone           |
-| cameraPx            | int     | Camera resolution (MP)       |
-| dateOfManufacture   | String  | Format: DD-MM-YYYY           |
+- `id` – Unique phone ID
+- `name` – Phone model name
+- `brand` – Brand name
+- `cost` – Price of phone
+- `cameraPx` – Camera resolution
+- `dateOfManufacture` – Format: `DD-MM-YYYY`
 
-### Includes:
-- Parameterized Constructor
-- Getters and Setters
+Includes:
+- Constructor
+- Getters & Setters
 - Overridden `toString()` method
 
 ---
 
-## ⚙ Functionalities Implemented
+## 📚 PhoneManagerList (Using List)
 
-### ✅ Add Phone
-Adds a phone object to the LinkedList.
+Uses:
 
-## ✅ Remove Phone by ID
-Removes a phone safely using `Iterator`.
-
+```java
+List<Phone> li = new LinkedList<>();
 
 ---
 
-<img width="1246" height="542" alt="image" src="https://github.com/user-attachments/assets/e9aac5dc-94a3-405f-b8a3-972624b2f07e" />
-<img width="1222" height="616" alt="image" src="https://github.com/user-attachments/assets/474375b2-8466-47cf-8bac-9088aa3c75c7" />
-<img width="1230" height="543" alt="image" src="https://github.com/user-attachments/assets/aca68376-599c-4809-ad42-20df894193f1" />
-<img width="1194" height="566" alt="image" src="https://github.com/user-attachments/assets/1cd3193f-8d51-44e7-9bcf-2a89e71cf7aa" />
+<img width="1364" height="695" alt="image" src="https://github.com/user-attachments/assets/36cbc2c6-5b70-4c6b-ba17-85fdc935edc6" />
+<img width="1546" height="658" alt="image" src="https://github.com/user-attachments/assets/aab70907-0d88-4937-b196-e671fe906409" />
+<img width="1384" height="693" alt="image" src="https://github.com/user-attachments/assets/8f14915c-74c2-416c-a35a-3f2fc64c8127" />
+<img width="1474" height="672" alt="image" src="https://github.com/user-attachments/assets/a57149fa-2d7f-43f5-bd5e-c30a6ca4c86e" />
+<img width="1325" height="387" alt="image" src="https://github.com/user-attachments/assets/69172b71-d737-4073-aaec-b8fa579d3f2a" />
 
 
