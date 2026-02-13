@@ -42,10 +42,7 @@ Includes:
 ---
 
 ## 📚 PhoneManagerList (Using List)
-
 Uses:
-
-```java
 List<Phone> li = new LinkedList<>();
 
 ---
